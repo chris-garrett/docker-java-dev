@@ -1,0 +1,12 @@
+# docker-java-dev
+
+* Java dev image ${VERSION}
+
+## Versions
+- java/alpine ${VERSION}
+
+## Usage
+
+```docker run --rm -v `pwd`/src:/app/src chrisgarrett/java-dev npm run start```
+
+## Credits
