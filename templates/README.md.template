@@ -1,12 +1,14 @@
 # docker-java-dev
 
-* Java dev image ${VERSION}
+* Java dev image  ${IMAGE_VERSION}
 
 ## Versions
-- java/alpine ${VERSION}
+- OpenSDK ${IMAGE_VERSION} (Amazon Corretto): https://hub.docker.com/_/amazoncorretto
+- Dockerize ${DOCKERIZE_VERSION}: https://github.com/jwilder/dockerize
+- Task ${TASK_VERSION}: https://github.com/go-task
 
 ## Usage
 
-```docker run --rm -v `pwd`/src:/app/src chrisgarrett/java-dev npm run start```
+```docker run --rm -v `pwd`/src:/app/src chrisgarrett/java-dev:${IMAGE_VERSION} java --version```
 
 ## Credits
